@@ -1,0 +1,81 @@
+body{
+    background: blue;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+button{
+    border-radius: 25px;
+    border: 2px solid white;
+    background: transparent;
+    padding: 20px;
+    width: 5vw;
+    height: 5vw;
+}
+nav {
+    display: flex;
+}
+.logo-name{
+    display: flex;
+    width: 15%;
+    flex-wrap: nowrap;
+}
+.nav-links-section{
+    display: flex;
+    margin: auto;
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+.nav-links:visited{
+    color: white;
+}
+.sub{
+    justify-content: center;
+}
+#sub{
+    color: white;
+    width: 8vw;
+    height: 5vw;
+}
+.center-txt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 35px;
+    width: 70%;
+    margin: auto;
+}
+#start{
+    margin-top: 35px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 15vw;
+    height: 10vw;
+}
+#scroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.sideways{
+    display: flex;
+    transform: rotate(-90deg);
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-flow: column;
+}
